@@ -1,0 +1,9 @@
+name: "Scaffold"
+version: "0.0.1"
+description: 'Wow, what an awesome plugin!'
+api-version: '1.21.10'
+prefix: 'Scaffold'
+
+main: xyz.bitsquidd.scaffold.Scaffold
+bootstrapper: xyz.bitsquidd.scaffold.ScaffoldPluginBootstrap
+loader: xyz.bitsquidd.scaffold.ScaffoldPluginLoader

@@ -1,0 +1,10 @@
+[versions]
+paper-api = "1.21.11-R0.1-SNAPSHOT"
+
+[libraries]
+errorprone = { group = "com.google.errorprone", name = "error_prone_core", version = "2.45.0" }
+
+[plugins]
+shadow = { id = "com.gradleup.shadow", version = "9.0.1" }
+paperweight-userdev = { id = "io.papermc.paperweight.userdev", version = "2.0.0-beta.19" }
+errorprone = { id = "net.ltgt.errorprone", version = "4.3.0" }
